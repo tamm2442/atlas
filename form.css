@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+/* form styling */
+
+h1{
+	color:cadetblue
+}
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+}
+
+label {
+	margin-right: .3em;
+	width: 6.3em; 
+	display: inline-block; 
+	text-align: right;
+}
+
+#formcol1 li {
+	list-style:none;
+}
+
+#formcol1 input.reqfield {
+	background: rgb(255, 255, 141);
+}
+
+select:focus, 
+select:active, 
+input:focus, 
+input:active, 
+input:focus + label,
+input:active + label, 
+label[for]:focus, 
+label[for]:active {
+color: #FFF !important;
+background-color: #388ec4 !important;}
+/* end of form css */
+	
